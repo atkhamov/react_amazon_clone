@@ -45,12 +45,12 @@ function Header() {
             </Link>
 
             {/* 4th link */}
-            <Link to="/checkout">
+            <Link to="/checkout" className="header__link">
                <div className="header__optionBasket">
                   {/* Shopping basket icon */}
                   <ShoppingBasketIcon/>
                   {/* Number of items in the basket */}
-                  <span>0</span>
+                  <span className="header__optionLineTwo header__basketCount">0</span>
                </div>
             </Link>
          </div>
